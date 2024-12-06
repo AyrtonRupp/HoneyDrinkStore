@@ -1,7 +1,19 @@
 {
-  "name": "react-coder",
+  "name": "honey-drink-store",
   "version": "0.1.0",
   "private": true,
+  "description": "Projecto Local de Bebidas",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build",
+    "push-deploy": "git add . && git commit -m 'Update project' && git push origin main && npm run deploy"
+
+  },
+  "homepage": "https://AyrtonRupp.github.io/HoneyDrinkStore",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
@@ -19,11 +31,8 @@
     "react-toastify": "^9.1.1",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   },
   "eslintConfig": {
     "extends": [
@@ -43,10 +52,9 @@
       "last 1 safari version"
     ]
   },
-  "description": "_Este es mi proyecto final para presentar en el curso de React js en CoderHouse_",
-  "main": "index.js",
-  "devDependencies": {},
   "keywords": [],
-  "author": "",
+  "author": "Ayrton Rupp",
   "license": "ISC"
 }
+
+
