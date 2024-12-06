@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HoneyDrinkStore/static/css/main.e3b326eb.css",
+    "main.js": "/HoneyDrinkStore/static/js/main.98328f2c.js",
+    "static/media/bootstrap-icons.woff?": "/HoneyDrinkStore/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
+    "static/media/bootstrap-icons.woff2?": "/HoneyDrinkStore/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
+    "index.html": "/HoneyDrinkStore/index.html",
+    "main.e3b326eb.css.map": "/HoneyDrinkStore/static/css/main.e3b326eb.css.map",
+    "main.98328f2c.js.map": "/HoneyDrinkStore/static/js/main.98328f2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3b326eb.css",
+    "static/js/main.98328f2c.js"
+  ]
+}
